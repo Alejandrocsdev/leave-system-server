@@ -1,0 +1,8 @@
+# https://docs.nestjs.com/first-steps
+npm i -g @nestjs/cli
+nest new leave-management-system
+
+# https://docs.nestjs.com/techniques/configuration
+npm i --save @nestjs/config
+npm i joi
+./src/types/environment.d.ts
