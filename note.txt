@@ -6,3 +6,17 @@ nest new leave-management-system
 npm i --save @nestjs/config
 npm i joi
 ./src/types/environment.d.ts
+
+# https://docs.nestjs.com/techniques/mongodb
+npm i @nestjs/mongoose mongoose
+./src/user/schemas/user.schema.ts
+
+# https://docs.nestjs.com/cli/overview
+CLI
+
+# https://docs.nestjs.com/controllers
+nest g controller user
+# https://docs.nestjs.com/providers
+nest g service user
+# https://docs.nestjs.com/modules
+nest g module user
